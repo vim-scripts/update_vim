@@ -1,7 +1,7 @@
-# $Id: zshrc-local-pauli,v 1.12 2002/03/15 21:05:50 8host Exp $
+# $Id: zshrc-local-pauli,v 1.13 2002/04/03 18:42:26 8host Exp $
 
 #
-# Author: Lubomir Host 'rajo' <host8@kepler.fmph.uniba.sk>
+# Author: Lubomir Host 'rajo' <host8 AT keplerDOTfmphDOTunibaDOTsk>
 #
 
 # Source this with zsh (~/.zshrc) and type 'update-vim-zsh'
@@ -11,23 +11,25 @@
 
 # Script automaticaly download new patches for vim, patch sources,
 # and then compile & install vim
+# Your sources must be unpacked (you nedd also vim*-extra.tar.gz and
+# vim*-lang.tar.gz files)
 
 ################################################################
 # User's setup
 ################################################################
 
 # Define vim version:
-VIM_VER="vim61b"
-VIM_VER_LONG="vim-6.1b"
-VIM_VER_EGREP="^6\.1b\."
+VIM_VER="vim61"
+VIM_VER_LONG="vim-6.1"
+VIM_VER_EGREP="^6\.1\."
 
 # Web site where patches are located
 #URL="ftp://ftp.vim.org/pub/vim/patches/"
-URL="ftp://ftp.vim.org/pub/vim/unstable/patches/"
+URL="ftp://ftp.vim.org/pub/vim/patches/"
 
 # Directory where Vim sources are located
 #SRC_DIR="/opt/scratch/rajo/src/own"
-SRC_DIR="/opt/scratch/rajo/src/own/unstable"
+SRC_DIR="/opt/scratch/rajo/src/own"
 
 # Where save tar-bziped archiv
 DIST_DIR="$HOME/public_html/vim/dist"
