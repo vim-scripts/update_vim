@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=249
+
+This script download all new patches for vim (currently 6.1.x), patch sources, recompile it and install new version of vim.
